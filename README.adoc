@@ -25,7 +25,7 @@ Use: ````gulp bundle```` to create a ui-bundle.zip from the UI Repository and in
 
 For more information on Antora follow the [official Antora documentation](https://docs.antora.org/antora/2.0/)
 
-##Quick Start
+=== Quick Start
 
 = Antora Default UI
 // Settings:
