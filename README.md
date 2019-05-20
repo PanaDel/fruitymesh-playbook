@@ -6,6 +6,8 @@ Three Repositories are needed for this to work:
 2. [the UI-repository]( *** ADD LINK HERE *** )
 3. [the Fruitymesch repository](https://github.com/PanaDel/fruitymesh) 
 
+Antora(playbook.yml file) uses the ui-bundle and the software documentation Asciidoc files to build a .html [documentation site]( *** ADD LINK HERE *** )
+
 Execute following command to build documentation with search activated:
 ````
 DOCSEARCH_ENABLED=true DOCSEARCH_ENGINE=lunr antora playbook.yml
