@@ -1,6 +1,11 @@
 # fruitymesh-playbook
 This Repo holds configuration file playbook.yml for the [Fruitymesh ](https://github.com/PanaDel/fruitymesh) documentation built by Antora.
 
+Three Repositories are needed for this to work:
+1. [this repository](https://github.com/PanaDel/fruitymesh-playbook)
+2. [the UI-repository]( *** ADD LINK HERE *** )
+3. [the Fruitymesch repository](https://github.com/PanaDel/fruitymesh) 
+
 Execute following command to build documentation with search activated:
 ````
 DOCSEARCH_ENABLED=true DOCSEARCH_ENGINE=lunr antora playbook.yml
