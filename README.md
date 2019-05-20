@@ -8,4 +8,4 @@ DOCSEARCH_ENABLED=true DOCSEARCH_ENGINE=lunr antora playbook.yml
 The playbook.yml uses a custom UI-BUNDLE (ui: bundle: url:) to use for the generated Documentation.
 This UI-BUNDLE is created from a seperate repository *** ADD LINK HERE ***
 
-For more information on Antora follow the [official documentation](https://docs.antora.org/antora/2.0/)
+For more information on Antora follow the [official Antora documentation](https://docs.antora.org/antora/2.0/)
