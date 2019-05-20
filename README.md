@@ -16,6 +16,7 @@ DOCSEARCH_ENABLED=true DOCSEARCH_ENGINE=lunr antora playbook.yml
 The playbook.yml uses a custom UI-BUNDLE (ui: bundle: url:) for the generated Documentation.
 This UI-BUNDLE is created from a seperate [UI repository] ( *** ADD LINK HERE *** )
 This Repository can be edited to change the UI look.
+*** **Node Version 8 must be used for gulp commands to work inside the UI-repo**  *** ( include this information in the UI-REPO when it is done)
 
 Follow the [official Antora documentation](https://docs.antora.org/antora-ui-default/) for further information on how to customise the UI.
 
