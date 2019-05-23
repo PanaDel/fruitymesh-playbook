@@ -10,9 +10,7 @@ content:
       branches: master
 ui:
   bundle:
-    # below is the default UI provided by Antora which we used to create the custom fruitymesh-ui
-    # url: https://gitlab.com/g.grossetie/antora-ui-default/-/jobs/artifacts/lunr-integration/raw/build/ui-bundle.zip?job=bundle-dev
-    url: /Users/p.manoloudis/Documents/Antora/fruitymesh-ui/build/ui-bundle.zip
+    url: https://repo.mwaysolutions.com/relution/bluerange/antora-docs/ui-bundle/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
 runtime:
   fetch: true
