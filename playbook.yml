@@ -1,17 +1,18 @@
 site:
-  title: BlueRange *Icon* Fruitymesh
-  # url: https://github.com/mwaylabs/fruitymesh
-  url: file:///Users/p.manoloudis/Documents/Antora/bluerange-playbook/build/site/index.html
+  title: BlueRange Fruitymesh
+  # replace this with site url when available
+  url: http://localhost:5000
   start_page: fruitymesh::README.adoc
 content:
   sources:
-  - url: https://github.com/PanaDel/fruitymesh.git
-    start_path: docs
-    branches: master
+    - url: https://github.com/PanaDel/fruitymesh.git
+      start_path: docs
+      branches: master
 ui:
   bundle:
-    # url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
-    url: https://gitlab.com/g.grossetie/antora-ui-default/-/jobs/artifacts/lunr-integration/raw/build/ui-bundle.zip?job=bundle-dev
+    # below is the default UI provided by Antora which we used to create the custom fruitymesh-ui
+    # url: https://gitlab.com/g.grossetie/antora-ui-default/-/jobs/artifacts/lunr-integration/raw/build/ui-bundle.zip?job=bundle-dev
+    url: /Users/p.manoloudis/Documents/Antora/fruitymesh-ui/build/ui-bundle.zip
     snapshot: true
 runtime:
   fetch: true
