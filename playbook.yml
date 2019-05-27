@@ -10,7 +10,10 @@ content:
       branches: master
 ui:
   bundle:
+    # when testing locally uncomment folowing url
     url: https://repo.mwaysolutions.com/relution/bluerange/antora-docs/ui-bundle/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
+    # and comment the one bellow
+    # url: ./ui-bundle.zip
     snapshot: true
 runtime:
   fetch: true
